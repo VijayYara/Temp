@@ -37,6 +37,8 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+      - name: 21f3003091@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
 
   # Deployment job
   deploy:
