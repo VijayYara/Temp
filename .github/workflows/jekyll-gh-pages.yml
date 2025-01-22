@@ -51,3 +51,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+  test:
+    steps:
+      - name: 21f3003091@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
